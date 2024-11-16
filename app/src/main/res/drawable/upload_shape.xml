@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the rectangle shape -->
+    <solid android:color="#FF7904" /> <!-- Background color of the shape -->
+
+    <!-- Rounded corners -->
+    <corners android:radius="50dp" /> <!-- Adjust the radius to change the curve -->
+
+    <!-- Optional padding inside the shape -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+
+    <!-- Optional border (stroke) around the shape -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF7904" /> <!-- Border color -->
+</shape>

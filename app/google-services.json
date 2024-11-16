@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471955532910",
+    "project_id": "saiseva-a0ec6",
+    "storage_bucket": "saiseva-a0ec6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471955532910:android:b16ec7032be6bc73ef0a7f",
+        "android_client_info": {
+          "package_name": "com.example.saiseva"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW4wSdQoh4NyikYi0Qz-71efzfcYquvAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

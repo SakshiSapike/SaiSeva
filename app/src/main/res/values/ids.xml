@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="generate_button" type="id">generate button</item>
+    <item name="newspot" type="id">newspot</item>
+</resources>
