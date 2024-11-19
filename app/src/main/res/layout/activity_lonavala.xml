@@ -232,11 +232,11 @@
                 tools:ignore="ContentDescription" />
 
             <Button
-                android:id="@+id/aungananathbooknow"
+                android:id="@+id/lonavalabooknow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:backgroundTint="@drawable/myshape"
+                android:backgroundTint="@color/black"
                 android:text="Book Now"
                 android:textColor="@color/white"
                 android:textSize="20sp"

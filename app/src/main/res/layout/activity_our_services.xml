@@ -43,6 +43,7 @@
                 tools:ignore="HardcodedText,VisualLintButtonSize" />
 
             <Button
+                android:id="@+id/csn"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
