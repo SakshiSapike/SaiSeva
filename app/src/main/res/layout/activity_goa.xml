@@ -53,6 +53,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
                     android:text="Big Foot"
                     android:textSize="30sp" />
             </LinearLayout>
@@ -87,6 +88,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
                     android:text="Fourt Augada"
                     android:textSize="30sp" />
             </LinearLayout>
@@ -116,6 +118,7 @@
                 <TextView
                     android:id="@+id/textViewSecretariat"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
@@ -153,6 +156,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
                     android:text="Vagator Beach"
                     android:textSize="30sp" />
             </LinearLayout>
@@ -183,6 +187,7 @@
                 <TextView
                     android:id="@+id/textViewDoan"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"

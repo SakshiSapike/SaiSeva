@@ -47,6 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:text="Needle's Point"
                     android:textSize="30sp" />
@@ -72,7 +73,7 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:id="@+id/bhimalocation"
+                    android:id="@+id/monkeylocation"
                     android:layout_width="67dp"
                     android:layout_height="78dp"
                     app:srcCompat="@drawable/location"
@@ -81,6 +82,7 @@
                 <TextView
                     android:id="@+id/Monkeypoint"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_weight="1"
@@ -114,6 +116,7 @@
 
                 <TextView
                     android:id="@+id/Arthurseat"
+                    android:textColor="@color/black"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
@@ -151,6 +154,7 @@
                 <TextView
                     android:id="@+id/KatePoint"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_weight="1"
@@ -188,6 +192,7 @@
 
                 <TextView
                     android:id="@+id/Wilsonpoint"
+                    android:textColor="@color/black"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"

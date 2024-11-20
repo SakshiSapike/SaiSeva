@@ -49,6 +49,7 @@
                 <TextView
                     android:id="@+id/textViewBigfoot"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
@@ -86,6 +87,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:text="Karla Caves"
                     android:textSize="30sp" />
@@ -116,6 +118,7 @@
                 <TextView
                     android:id="@+id/textViewSecretariat"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
@@ -149,6 +152,7 @@
                 <TextView
                     android:id="@+id/textViewvagatar"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
@@ -183,6 +187,7 @@
                 <TextView
                     android:id="@+id/textDuke"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
@@ -215,6 +220,7 @@
 
                 <TextView
                     android:id="@+id/textRajmachi"
+                    android:textColor="@color/black"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"

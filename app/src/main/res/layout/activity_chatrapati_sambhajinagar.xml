@@ -52,6 +52,7 @@
                     android:layout_weight="1"
                     android:text="Ellora Caves "
                     android:textSize="30sp"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
@@ -79,7 +80,9 @@
 
                 <TextView
                     android:id="@+id/AurangabadCaves"
+                    android:textColor="@color/black"
                     android:layout_width="0dp"
+
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
@@ -120,6 +123,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:text="Bibi-Ka-Makbara"
                     android:textSize="30sp" />
@@ -155,6 +159,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:text="Daulatabad Fort"
                     android:textSize="30sp" />
@@ -190,6 +195,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:text="Khultabad Fort"
                     android:textSize="30sp" />
@@ -222,6 +228,7 @@
                 <TextView
                     android:id="@+id/textViewGhrishneshwarMandir"
                     android:layout_width="0dp"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"

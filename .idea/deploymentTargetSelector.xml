@@ -11,13 +11,13 @@
       <SelectionState runConfigName="ChatrapatiSambhajinagar">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Goa">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="Bhimashankar">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="ParaliVaijinath">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="PanelforAdmin">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

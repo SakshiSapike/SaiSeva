@@ -54,6 +54,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:text="Muktidham"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:textSize="30sp" />
             </LinearLayout>
@@ -87,6 +88,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
                     android:text="Panchawati"
                     android:textSize="30sp" />
             </LinearLayout>
@@ -120,6 +122,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
                     android:text="Trimbakeshwar"
                     android:textSize="30sp" />
             </LinearLayout>

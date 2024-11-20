@@ -50,6 +50,7 @@
                     android:layout_weight="1"
                     android:text="Aundha Nagnath"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
                     android:textSize="30sp" />
             </LinearLayout>
             <ImageView
