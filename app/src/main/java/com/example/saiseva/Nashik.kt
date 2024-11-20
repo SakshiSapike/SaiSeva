@@ -21,7 +21,7 @@ class Nashik : AppCompatActivity() {
         }
 
         // Initialize "Book Now" button
-        val bookNowButton: Button = findViewById(R.id.aungananathbooknow)
+        val bookNowButton: Button = findViewById(R.id.nashikbooknow)
         bookNowButton.setOnClickListener {
             // Handle "Book Now" action, e.g., navigate to another activity or show a toast
             Toast.makeText(this, "Booking functionality coming soon!", Toast.LENGTH_SHORT).show()
