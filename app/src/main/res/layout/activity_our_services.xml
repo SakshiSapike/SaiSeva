@@ -26,6 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="16dp"
@@ -46,9 +47,6 @@
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/sevices"
                 tools:ignore="ContentDescription" />
-
-            <!-- Row 1 -->
-
             <!-- Row 1 -->
             <LinearLayout
                 android:layout_width="match_parent"
