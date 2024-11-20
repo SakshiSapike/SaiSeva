@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OurServices">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,137 +19,189 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+
             <TextView
                 android:id="@+id/textViewHeading"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
                 android:padding="16dp"
-                android:text="Our Services"
+                android:text="Our Packages"
                 android:textColor="@color/black"
-                android:textSize="60sp"
-                android:textStyle="bold" />
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/services"
                 android:layout_width="match_parent"
-                android:layout_height="270dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginRight="8dp"
+                android:layout_height="200dp"
+                android:layout_marginVertical="16dp"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/sevices"
                 tools:ignore="ContentDescription" />
 
-            <Button
-                android:id="@+id/nashik"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/orange"
-                android:text=" Shirdi to Nashik "
-                android:textColor="@color/black"
-                android:textSize="35dp"
-                tools:ignore="HardcodedText,VisualLintButtonSize" />
+            <!-- Row 1 -->
 
-            <Button
-                android:id="@+id/csn"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/orange"
-                android:text="Shirdi to Chatrapati Sambhaji Nagar"
-                android:textColor="@color/black"
-                android:textSize="35dp"
-                tools:ignore="HardcodedText,TextSizeCheck,VisualLintButtonSize" />
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
 
-            <Button
-                android:id="@+id/bhimashankar"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/orange"
-                android:text="Shirdi to Bhimashankar"
-                android:textColor="@color/black"
-                android:textSize="35sp"
-                tools:ignore="HardcodedText,VisualLintButtonSize" />
+                <Button
+                    android:id="@+id/nashik"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Shirdi to Nashik"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:fontFamily="sans-serif-medium" />
 
-            <Button
-                android:id="@+id/PV"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/orange"
-                android:text="Shirdi to Parali Vaijinath"
-                android:textColor="@color/black"
-                android:textSize="35sp"
-                tools:ignore="HardcodedText,VisualLintButtonSize" />
+                <Button
+                    android:id="@+id/csn"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Shirdi to Sambhaji Nagar"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/AN"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/orange"
-                android:text="Shirdi to Aundha Nagnath"
-                android:textColor="@color/black"
-                android:textSize="35sp"
-                tools:ignore="HardcodedText,VisualLintButtonSize" />
 
-            <Button
-                android:id="@+id/mahabaleshwar"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/orange"
-                android:text="Shirdi to Mahabaleshwar"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                tools:ignore="HardcodedText,VisualLintButtonSize" />
 
-            <Button
-                android:id="@+id/goa"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/orange"
-                android:text="    Shirdi to Goa   "
-                android:textColor="@color/black"
-                android:textSize="35sp"
-                tools:ignore="HardcodedText,VisualLintButtonSize" />
+            <!-- Row 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
 
-            <Button
-                android:id="@+id/Lonavala"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/orange"
-                android:text="Shirdi to Lonavala"
-                android:textColor="@color/black"
-                android:textSize="35sp"
-                tools:ignore="HardcodedText,VisualLintButtonSize" />
+                <Button
+                    android:id="@+id/bhimashankar"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Shirdi to Bhimashankar"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium" />
 
-            <Button
-                android:id="@+id/Vani"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_marginBottom="110dp"
-                android:layout_gravity="center"
-                android:backgroundTint="@color/orange"
-                android:text="Shirdi to Vani Saptashrungi"
-                android:textColor="@color/black"
-                android:textSize="35sp"
-                tools:ignore="HardcodedText,VisualLintButtonSize" />
+                <Button
+                    android:id="@+id/PV"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/orange"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Shirdi to Parali Vaijinath"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
+            <!-- Row 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/AN"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Shirdi to Aundha Nagnath"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium" />
+
+                <Button
+                    android:id="@+id/mahabaleshwar"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Shirdi to Mahabaleshwar"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+
+            <!-- Row 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/goa"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Shirdi to Goa"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium" />
+
+                <Button
+                    android:id="@+id/Lonavala"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Shirdi to Lonavala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+
+            <!-- Row 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Vani"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/orange"
+                    android:text="Shirdi to Vani"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
         </LinearLayout>
 
     </ScrollView>
