@@ -66,7 +66,7 @@
                 app:srcCompat="@drawable/paralivijinath"
                 tools:ignore="ContentDescription" />
             <Button
-                android:id="@+id/parali"
+                android:id="@+id/paralbookbuttoni"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

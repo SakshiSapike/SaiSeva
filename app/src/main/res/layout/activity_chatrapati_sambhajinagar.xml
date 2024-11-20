@@ -241,7 +241,7 @@
 
             <!-- Book Now Button -->
             <Button
-                android:id="@+id/buttonBook"
+                android:id="@+id/csnbuttonBook"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
