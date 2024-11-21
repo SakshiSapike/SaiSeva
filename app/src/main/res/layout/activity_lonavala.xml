@@ -6,11 +6,10 @@
     android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lonavala">
+    tools:context=".Mahabaleshwar">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,17 +19,17 @@
 
             <!-- Heading TextView -->
             <TextView
-                android:id="@+id/textLonavala"
+                android:id="@+id/Mahabaleshwar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="66dp"
-                android:padding="16dp"
-                android:text="Shirdi to Lonavala"
+                android:text="Shirdi to Mahabaleshwar"
                 android:textColor="@color/black"
-                android:textSize="40sp"
-                android:textStyle="bold" />
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
 
-            <!-- Muktidham Section -->
+            <!-- Needle's Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -40,32 +39,36 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:id="@+id/Lonavalalocation"
+                    android:id="@+id/imageView8"
                     android:layout_width="67dp"
                     android:layout_height="78dp"
                     app:srcCompat="@drawable/location"
                     tools:ignore="ContentDescription" />
 
                 <TextView
-                    android:id="@+id/textViewBigfoot"
+                    android:id="@+id/Needlepoint"
                     android:layout_width="0dp"
-                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:text="Tiger's Point"
-                    android:textSize="30sp" />
+                    android:text="Needle's Point"
+                    android:textSize="26sp"
+                    android:padding="8dp" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/tigerspoint"
-                android:layout_width="wrap_content"
-                android:layout_height="270dp"
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="274dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/tigerspoint"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/needlepoint"
                 tools:ignore="ContentDescription" />
 
+            <!-- Monkey's Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -75,65 +78,34 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:id="@+id/imageView10"
+                    android:id="@+id/monkeylocation"
                     android:layout_width="67dp"
                     android:layout_height="78dp"
                     app:srcCompat="@drawable/location"
                     tools:ignore="ContentDescription" />
 
                 <TextView
-                    android:id="@+id/textViewAugada"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_weight="1"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:text="Karla Caves"
-                    android:textSize="30sp" />
-            </LinearLayout>
-
-            <ImageView
-                android:id="@+id/karlacave"
-                android:layout_width="match_parent"
-                android:layout_height="270dp"
-                android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/karlacave"
-                tools:ignore="ContentDescription" />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal"
-                tools:ignore="UseCompoundDrawables">
-
-                <ImageView
-                    android:id="@+id/imageView11"
-                    android:layout_width="67dp"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/location"
-                    tools:ignore="ContentDescription" />
-
-                <TextView
-                    android:id="@+id/textViewSecretariat"
+                    android:id="@+id/Monkeypoint"
                     android:layout_width="0dp"
                     android:textColor="@color/black"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="0dp"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:text="Lohagad Fort"
-                    android:textSize="30sp" />
+                    android:text="Monkey's Point"
+                    android:textSize="26sp"
+                    android:padding="8dp" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/lohagadfort"
+                android:id="@+id/imageView19"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/lohagadfort"
+                app:srcCompat="@drawable/monkeypoint"
                 tools:ignore="ContentDescription" />
+
+            <!-- Arthu Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -143,32 +115,36 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:id="@+id/imageView12"
+                    android:id="@+id/imageView90"
                     android:layout_width="67dp"
                     android:layout_height="78dp"
                     app:srcCompat="@drawable/location"
                     tools:ignore="ContentDescription" />
 
                 <TextView
-                    android:id="@+id/textViewvagatar"
-                    android:layout_width="0dp"
+                    android:id="@+id/Arthurseat"
                     android:textColor="@color/black"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="0dp"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:text="Bhushi Dam"
-                    android:textSize="30sp" />
+                    android:text="Arthu Point"
+                    android:textSize="26sp"
+                    android:padding="8dp" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/ramrachiloc"
+                android:id="@+id/imageView25"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
-                android:layout_marginStart="8dp"
-                app:srcCompat="@drawable/bhuishidam"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/arthurseat"
                 tools:ignore="ContentDescription" />
 
+            <!-- Kate's Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -178,31 +154,36 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:id="@+id/Dukeloc"
+                    android:id="@+id/imageView91"
                     android:layout_width="67dp"
                     android:layout_height="78dp"
                     app:srcCompat="@drawable/location"
                     tools:ignore="ContentDescription" />
 
                 <TextView
-                    android:id="@+id/textDuke"
+                    android:id="@+id/KatePoint"
                     android:layout_width="0dp"
                     android:textColor="@color/black"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="0dp"
                     android:layout_weight="1"
+                    android:text="Kate's Point"
                     android:textStyle="bold"
-                    android:text="Duke's Nose"
-                    android:textSize="30sp" />
+                    android:textSize="26sp"
+                    android:padding="8dp" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/Rajmachi"
+                android:id="@+id/imageView26"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
-                android:layout_marginStart="8dp"
-                app:srcCompat="@drawable/dukenose"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/katepoint"
                 tools:ignore="ContentDescription" />
+
+            <!-- Wilson Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -212,34 +193,38 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:id="@+id/Rajmachilocation"
+                    android:id="@+id/imageView92"
                     android:layout_width="67dp"
                     android:layout_height="78dp"
                     app:srcCompat="@drawable/location"
                     tools:ignore="ContentDescription" />
 
                 <TextView
-                    android:id="@+id/textRajmachi"
+                    android:id="@+id/Wilsonpoint"
                     android:textColor="@color/black"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="0dp"
                     android:layout_weight="1"
+                    android:text="Wilson Point"
                     android:textStyle="bold"
-                    android:text="Rajmachi Point"
-                    android:textSize="30sp" />
+                    android:textSize="26sp"
+                    android:padding="8dp" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/dpaul"
+                android:id="@+id/imageView27"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
-                android:layout_marginStart="8dp"
-                app:srcCompat="@drawable/ramrachipoint"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/wilsonpoint"
                 tools:ignore="ContentDescription" />
 
+            <!-- Book Now Button -->
             <Button
-                android:id="@+id/lonavalabooknow"
+                android:id="@+id/mahabaleshwarbooknow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -248,7 +233,6 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:layout_marginTop="16dp" />
-
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

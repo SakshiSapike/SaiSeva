@@ -16,6 +16,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!-- Heading TextView -->
             <TextView
                 android:id="@+id/Mahabaleshwar"
                 android:layout_width="match_parent"
@@ -26,6 +27,8 @@
                 android:textColor="@color/black"
                 android:textSize="40sp"
                 android:textStyle="bold" />
+
+            <!-- Needle's Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +54,6 @@
                     android:textStyle="bold"
                     android:text="Needle's Point"
                     android:textSize="30sp" />
-
             </LinearLayout>
 
             <ImageView
@@ -64,6 +66,7 @@
                 app:srcCompat="@drawable/needlepoint"
                 tools:ignore="ContentDescription" />
 
+            <!-- Monkey's Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -89,7 +92,6 @@
                     android:textStyle="bold"
                     android:text="Monkey's Point"
                     android:textSize="30sp" />
-
             </LinearLayout>
 
             <ImageView
@@ -99,6 +101,8 @@
                 android:layout_marginTop="8dp"
                 app:srcCompat="@drawable/monkeypoint"
                 tools:ignore="ContentDescription" />
+
+            <!-- Arthu Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -124,7 +128,6 @@
                     android:textStyle="bold"
                     android:text="Arthu Point"
                     android:textSize="30sp" />
-
             </LinearLayout>
 
             <ImageView
@@ -136,6 +139,8 @@
                 android:layout_marginRight="20dp"
                 app:srcCompat="@drawable/arthurseat"
                 tools:ignore="ContentDescription" />
+
+            <!-- Kate's Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -158,11 +163,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_weight="1"
-                    android:importantForAccessibility="no"
-                    android:textStyle="bold"
                     android:text="Kate's Point"
+                    android:textStyle="bold"
                     android:textSize="30sp" />
-
             </LinearLayout>
 
             <ImageView
@@ -175,6 +178,7 @@
                 app:srcCompat="@drawable/katepoint"
                 tools:ignore="ContentDescription" />
 
+            <!-- Wilson Point Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -197,11 +201,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_weight="1"
-                    android:text=" Wilson Point"
+                    android:text="Wilson Point"
                     android:textStyle="bold"
-                    android:textSize="30sp"
-                    tools:ignore="HardcodedText" />
-
+                    android:textSize="30sp" />
             </LinearLayout>
 
             <ImageView
@@ -213,6 +215,8 @@
                 android:layout_marginRight="20dp"
                 app:srcCompat="@drawable/wilsonpoint"
                 tools:ignore="ContentDescription" />
+
+            <!-- Book Now Button -->
             <Button
                 android:id="@+id/mahabaleshwarbooknow"
                 android:layout_width="wrap_content"

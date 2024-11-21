@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,6 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ChatrapatiSambhajinagar">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,228 +25,203 @@
                 android:id="@+id/textViewHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="66dp"
-                android:padding="16dp"
-                android:text="Shird to Chatrapathi Sambhajinagar"
+                android:layout_marginTop="48dp"
+                android:padding="12dp"
+                android:text="Shirdi to Chatrapathi Sambhajinagar"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="36dp"
                 android:textStyle="bold" />
+
+            <!-- Ellora Caves Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                tools:ignore="UseCompoundDrawables">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/elloralocation"
-                    android:layout_width="67dp"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/location"
-                    tools:ignore="ContentDescription" />
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    app:srcCompat="@drawable/location" />
 
                 <TextView
                     android:id="@+id/elloracaves"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
-                    android:text="Ellora Caves "
-                    android:textSize="30sp"
+                    android:text="Ellora Caves"
+                    android:textSize="26dp"
                     android:textColor="@color/black"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText" />
+                    android:textStyle="bold" />
             </LinearLayout>
+
+            <!-- Aurangabad Caves Section -->
             <ImageView
                 android:id="@+id/ellora"
                 android:layout_width="match_parent"
-                android:layout_height="270dp"
-                android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/kailasa"
-                tools:ignore="ContentDescription" />
+                android:layout_height="250dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/kailasa" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                tools:ignore="UseCompoundDrawables">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageView111"
-                    android:layout_width="67dp"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/location"
-                    tools:ignore="ContentDescription" />
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    app:srcCompat="@drawable/location" />
 
                 <TextView
                     android:id="@+id/AurangabadCaves"
-                    android:textColor="@color/black"
                     android:layout_width="0dp"
-
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
-                    android:text="Aurangabad Caves "
-                    android:textSize="30sp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText" />
+                    android:text="Aurangabad Caves"
+                    android:textSize="26dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
             </LinearLayout>
             <ImageView
                 android:id="@+id/agcave"
                 android:layout_width="match_parent"
-                android:layout_height="270dp"
-                android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/agcave"
-                tools:ignore="ContentDescription" />
-
-
+                android:layout_height="250dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/agcave" />
 
             <!-- Bibi-Ka-Makbara Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                tools:ignore="UseCompoundDrawables">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageView122"
-                    android:layout_width="67dp"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/location"
-                    tools:ignore="ContentDescription" />
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    app:srcCompat="@drawable/location" />
 
                 <TextView
                     android:id="@+id/textViewBkM"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
                     android:text="Bibi-Ka-Makbara"
-                    android:textSize="30sp" />
+                    android:textSize="26dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
             </LinearLayout>
-
             <ImageView
                 android:id="@+id/bkm"
                 android:layout_width="match_parent"
-                android:layout_height="270dp"
-                android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/bkm"
-                tools:ignore="ContentDescription" />
+                android:layout_height="250dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/bkm" />
 
             <!-- Daulatabad Fort Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                tools:ignore="UseCompoundDrawables">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageView112"
-                    android:layout_width="67dp"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/location"
-                    tools:ignore="ContentDescription" />
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    app:srcCompat="@drawable/location" />
 
                 <TextView
                     android:id="@+id/Daulatabadtext"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
                     android:text="Daulatabad Fort"
-                    android:textSize="30sp" />
+                    android:textSize="26dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
             </LinearLayout>
-
             <ImageView
                 android:id="@+id/Daulatabad"
                 android:layout_width="match_parent"
-                android:layout_height="270dp"
-                android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/dnb"
-                tools:ignore="ContentDescription" />
+                android:layout_height="250dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/dnb" />
 
-            <!-- Khultabad Section -->
+            <!-- Khultabad Fort Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                tools:ignore="UseCompoundDrawables">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageView113"
-                    android:layout_width="67dp"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/location"
-                    tools:ignore="ContentDescription" />
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    app:srcCompat="@drawable/location" />
 
                 <TextView
                     android:id="@+id/Khultabadtxt"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
                     android:text="Khultabad Fort"
-                    android:textSize="30sp" />
+                    android:textSize="26dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
             </LinearLayout>
-
             <ImageView
                 android:id="@+id/khuldabad"
                 android:layout_width="match_parent"
-                android:layout_height="270dp"
-                android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/khuldabad"
-                tools:ignore="ContentDescription" />
+                android:layout_height="250dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/khuldabad" />
 
             <!-- Ghrishneshwar Mandir Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                tools:ignore="UseCompoundDrawables">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageView114"
-                    android:layout_width="67dp"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/location"
-                    tools:ignore="ContentDescription" />
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    app:srcCompat="@drawable/location" />
 
                 <TextView
                     android:id="@+id/textViewGhrishneshwarMandir"
                     android:layout_width="0dp"
-                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:text="Grishneshwar Jyotiling"
-                    android:textSize="25sp" />
+                    android:textSize="26dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
             </LinearLayout>
-
             <ImageView
                 android:id="@+id/imageView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/grishneshwar"
-                tools:ignore="ContentDescription" />
-
-
+                app:srcCompat="@drawable/grishneshwar" />
 
             <!-- Book Now Button -->
             <Button
@@ -252,12 +229,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="24dp"
                 android:backgroundTint="@color/black"
                 android:text="Book Now"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:layout_marginTop="16dp" />
-
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="12dp" />
         </LinearLayout> <!-- Close LinearLayout -->
 
     </ScrollView> <!-- Close ScrollView -->

@@ -1,6 +1,9 @@
 package com.example.saiseva
+
 import android.content.Intent
 import android.os.Bundle
+import android.text.method.HideReturnsTransformationMethod
+import android.text.method.PasswordTransformationMethod
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
@@ -36,7 +39,26 @@ class PanelforAdmin : AppCompatActivity() {
         val passwordInput: EditText = findViewById(R.id.admin_password)
         val loginButton: TextView = findViewById(R.id.admin_login)
         val dontHaveAccountText: TextView = findViewById(R.id.admin_txt_of_dha)
-        val nextPageIcon: ImageView = findViewById(R.id.next_page)
+
+        val eyeIcon: ImageView = findViewById(R.id.eye_icon) // Add an ImageView for the eye icon
+
+        var isPasswordVisible = false
+
+        // Toggle password visibility on eye icon click
+        eyeIcon.setOnClickListener {
+            isPasswordVisible = !isPasswordVisible
+            if (isPasswordVisible) {
+                // Show password
+                passwordInput.transformationMethod = HideReturnsTransformationMethod.getInstance()
+                eyeIcon.setImageResource(R.drawable.ic_eye_open) // Use a suitable drawable for the open eye
+            } else {
+                // Hide password
+                passwordInput.transformationMethod = PasswordTransformationMethod.getInstance()
+                eyeIcon.setImageResource(R.drawable.ic_eye_closed) // Use a suitable drawable for the closed eye
+            }
+            // Move cursor to the end of the text
+            passwordInput.setSelection(passwordInput.text.length)
+        }
 
         // Handle login button click
         loginButton.setOnClickListener {
@@ -64,8 +86,6 @@ class PanelforAdmin : AppCompatActivity() {
         }
 
         // Handle next page icon click (optional functionality)
-        nextPageIcon.setOnClickListener {
-            Toast.makeText(this, "Feature not implemented yet", Toast.LENGTH_SHORT).show()
-        }
+
     }
 }
